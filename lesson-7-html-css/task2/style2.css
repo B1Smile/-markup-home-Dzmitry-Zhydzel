@@ -1,0 +1,36 @@
+a:link[href^="https://"] {
+  color: #f70;
+}
+a:link[href*="google"] {
+  color: #666; 
+}
+a:visited[href^="https://"] {
+  color: #f70;
+}
+a:visited[href*="google"] {
+  color: #666;
+}
+/*a:visited[target="_blank"] {
+  background: url(external.png) no-repeat scroll right center transparent;
+  padding: 0 20px 0 0;
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+/*A[href^="https://"] {
+  color: #f70;
+}
+A[href*="google"] {
+  color: #666;
+}
+A[href^="file:///"] {
+  color: blue;
+}
+
+/*&#8689*/
