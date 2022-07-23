@@ -1,0 +1,30 @@
+body{
+  @import url('https://fonts.google.com/specimen/Oswald#standard-styles');
+    font-family: 'Oswald', sans-serif;
+}
+nav {
+  background-color: rgb(166,77,255);
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+}
+.menu li a {
+  padding: 11px 16px;
+  text-decoration: none;
+  color: white;
+  line-height: 38px;
+}
+.menu li a:hover {
+  background-color: rgb(236,237,238);
+  color: #9faabc;
+}
+.menu {
+  padding: 0;
+}
+.MORE {
+  float: right;
+  margin-right: 100px;
+}
