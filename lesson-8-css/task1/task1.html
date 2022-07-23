@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Sign up to the app</h1>
+  <form>
+    <fieldset>
+      <legend>Personal information</legend>
+      <p>First name:</br>
+      <input type="text" placeholder="Name" name="Firstname"></p>
+      <p>Last name:</br>
+        <input type="text" placeholder="Last name" name="Lastname"></p>
+        <p class="textarea">Self-presentation:</br>
+          <textarea placeholder="text area" cols="30" rows="10"></textarea></p>
+    </fieldset>
+    <fieldset>
+      <legend>Car info(the brand):</legend>
+      <select name="hero" size="1">
+        <option disabled>Choose car</option>
+        <option value="Volvo">Volvo</option>
+        <option value="Saab">Saab</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Audi">Audi</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Choose one:</legend>
+  
+      <input type="radio" id="male" name="gender">
+      <label for="male">Male</label><br/>
+  
+      <input type="radio" id="female" name="gender">
+      <label for="female">Female</label><br/>
+  
+      <input type="radio" id="other" name="gender">
+      <label for="other">Other</label>
+    </fieldset>
+    <fieldset>
+      <legend>Choose many:</legend>
+  
+      <input type="checkbox" id="bike" name="have">
+      <label for="bike">I have a bike</label><br/>
+  
+      <input type="checkbox" id="car" name="have">
+      <label for="car">I have a car</label><br/>
+  
+    </fieldset>
+    <p><input type="submit" value="Submit">
+      <input type="reset" value="Cancel"></p>
+  </form>
+</body>
+</html>

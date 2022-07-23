@@ -1,0 +1,31 @@
+/* personal info - self-presentation*/
+.textarea {
+  height: 10em;
+}
+/* choose */
+#male, #female, #other {
+  border: 2px solid rgb(218, 218, 218);
+  box-shadow: 0 0 0 1px gray;
+  appearance: none;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: rgb(218, 218, 218);
+  transition: all ease-in 0.2s;
+}
+#male:checked, #female:checked, #other:checked {
+  background-color: black;
+}
+#bike, #car {
+  border: 2px solid rgb(218, 218, 218);
+  box-shadow: 0 0 0 1px gray;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background-color: rgb(218, 218, 218);
+  transition: all ease-in 0.2s;
+  vertical-align:middle;
+}
+#bike:checked, #car:checked {
+  background-color: black; 
+}

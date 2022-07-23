@@ -1,0 +1,17 @@
+table { 
+  width: 60%; 
+  border-spacing: 0; 
+}
+td {
+  border-bottom: 1px solid rgb(214,212,204);
+  text-align: center;
+ }
+tr:nth-child(2n) {
+  background: rgb(220,234,246);
+}
+td:nth-child(2n+1) {
+  background: rgb(243,242,221);
+}
+td:nth-child(1) {
+  background: none;
+}
