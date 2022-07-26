@@ -1,0 +1,67 @@
+input[type=checkbox] {
+  display: none; 
+}
+label{
+  cursor:pointer;
+  display:inline-block;
+  width: 50px;
+  padding: 5px 20px 5px 5px;
+  position:relative;
+}
+input[type=checkbox] + label ~ .red{
+  display: none;
+}
+input[type=checkbox] + label[for="red"] {
+  border-bottom: 1px;
+  color: rgb(255, 0, 0, 0.3);
+  text-decoration: underline;
+}
+input[type=checkbox]:checked + label[for="red"] {
+  color: red;
+}
+input[type=checkbox]:checked + label[for="red"] ~ .red {
+  display: inline-block;
+  background: red;
+  color: white;
+  text-align: center;
+  width: 65px;
+  border-radius: 7px;
+}
+input[type=checkbox] + label ~ .green {
+  display: none;
+}
+input[type=checkbox] + label[for="green"] {
+  border-bottom: 1px;
+  color: rgb(0, 128, 0, 0.3);
+  text-decoration: underline;
+}
+input[type=checkbox]:checked + label[for="green"] {
+  color: green;
+}
+input[type=checkbox]:checked + label[for="green"] ~ .green {
+  display: inline-block;
+  background: green;
+  color: white;
+  text-align: center;
+  width: 65px;
+  border-radius: 7px;
+}
+input[type=checkbox] + label ~ .blue {
+  display: none;
+}
+input[type=checkbox] + label[for="blue"] {
+  border-bottom: 1px;
+  color: rgb(0, 0, 255, 0.3);
+  text-decoration: underline;
+}
+input[type=checkbox]:checked + label[for="blue"] {
+  color: blue;
+}
+input[type=checkbox]:checked + label[for="blue"] ~ .blue {
+  display: inline-block;
+  background: blue;
+  color: white;
+  text-align: center;
+  width: 65px;
+  border-radius: 7px;
+}

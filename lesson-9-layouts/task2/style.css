@@ -1,0 +1,44 @@
+body {
+  font: 18px Oswald, sans-serif;
+  
+}
+nav {
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  width: 1000px;
+  height: 70px;
+  border: 1px solid gray;
+  margin: auto;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+}
+.pages li a {
+  border: 2px solid rgb(202, 202, 202);
+  border-radius: 7px;
+  
+}
+.pages li a, .pages li {
+  padding: 7px 8px;
+  text-decoration: none;
+  color: rgb(161,60,207);
+  line-height: 20px; 
+}
+li:hover > a {
+ background-color: rgb(161,60,207); 
+ color: white;
+ border-radius: 7px;
+ border: 2px solid rgb(136,40,194); 
+}
+li[class="active-link"] > a {
+  background-color: rgb(161,60,207); 
+  color: white;
+  border-radius: 7px;
+  border: 2px solid rgb(136,40,194); 
+}
+li[class="word"] > a {
+  border: none;
+}
