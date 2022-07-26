@@ -28,10 +28,10 @@ nav li {
   line-height: 20px; 
 }
 li:hover > a {
- background-color: rgb(161,60,207); 
- color: white;
- border-radius: 7px;
- border: 2px solid rgb(136,40,194); 
+  background-color: rgb(161,60,207); 
+  color: white;
+  border-radius: 7px;
+  border: 2px solid rgb(136,40,194); 
 }
 li[class="active-link"] > a {
   background-color: rgb(161,60,207); 
