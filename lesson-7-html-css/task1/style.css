@@ -1,0 +1,51 @@
+h1 {
+  text-align: right;
+  color: orange;
+}
+h2 {
+  color: orange; 
+}
+em {
+  color: white;
+  background: green;
+}
+span {
+  font-weight: bold;
+}
+p:first-letter {
+  color: red;
+  font-size: 30px;
+}
+.vegetables {
+  color: red;
+}
+.fruits1 {
+  color: gray;
+}
+.fruits2 {
+  color: green;
+}
+.warehouse {
+  color: blue;
+}
+/*Таблица*/
+table {
+  border: 1px solid grey;
+}
+td {
+  width: 130px;
+  border: 1px solid grey;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.names {
+  color: orange;
+  text-align: left;
+  font-weight: normal;
+}
+.visit {
+  color: white;
+  background-color: green;
+  font-weight: normal;
+}
