@@ -1,0 +1,54 @@
+.blackninja {
+  background-color: black;
+  height: 300px;
+}
+.ninja, .deer {
+  margin-left: 200px;
+}
+img {
+  margin-top: 100px;
+  margin-left: 50px;
+  float: left;
+  width: 120px;
+  height: 120px;
+}
+.whitetriangle {
+  margin-top: 140px;
+  float: left;
+  border: 20px solid;
+  border-color: transparent white  transparent transparent;
+}
+.whitelist {
+  margin-top: 100px;
+  float: left;
+  background-color: white;
+  width: 350px;
+  height: 105px;
+  padding: 5px 20px 10px 20px;
+}
+h1 {
+  position: absolute;
+  left: 40%;
+  top: 20px;
+  color: rgb(49,112,167);
+}
+
+h1 > span {
+  color: rgb(237,128,42);
+}
+p {
+  font-size: 15px;
+}
+h4 {
+  color: rgb(104,140,188);
+  font-style: oblique
+}
+h4 > span {
+  float: right;
+}
+.whitelist > h4 {
+  border-bottom: 3px dotted gray;
+  color: rgb(158,182,203);
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
