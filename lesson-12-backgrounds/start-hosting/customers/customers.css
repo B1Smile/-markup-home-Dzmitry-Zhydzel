@@ -1,0 +1,53 @@
+.customer-1 {
+  float: left;
+  width: 60%;
+  height: 40%;
+}
+.customer1 {
+  margin-top: 60px;
+}
+.customer1-text > h2 {
+  margin-bottom: 0px;
+  text-align: right;
+  color: rgb(221,58,54);
+}
+.customer1-text > p{
+  margin-top: 15px;
+}
+.customer1-text {
+  position: absolute;
+  top: 40%; 
+  left: 65%; 
+}
+.customer1-text > span {
+  font-size: 11px;
+  float: right;
+  opacity: 0.5;
+}
+.customer-2 {
+  float:right;
+  width: 60%;
+  height: 40%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.customer2-text {
+  float: left;
+  margin-top: 15%;
+  margin-left: 15%;
+}
+.customer2-text > h2 {
+  color: rgb(221,58,54);
+  margin-bottom: 0px;
+}
+.customer2-text > span{
+  font-size: 11px;
+  opacity: 0.5;
+}
+.customer2-text > p {
+  margin-top: 0px;
+}
+.main-footer {
+  position: relative;
+  top: 1450px;
+}
